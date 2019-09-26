@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+}
+
+.background {
+  background-color: #151B26;
+  padding-left: 10px;
+}
+
+.all-container {
+  background-color: #F6F8F9;
+  padding: 1.5em;
+  height: 100vh;
+}
+
+.button-container {
+  padding: 10px;
+}
+
+.add-task {
+  background-color: #3EABF5;
+  border: none;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-task:hover {
+  background-color: #2D8CE3;
+}
+
+.add-task:focus {
+  background-color: #287FCE;
+  outline: 0;
+}
+
+.container {
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #F0F3F4;
+  box-shadow: 0.5px 0.5px 2px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.list-container {
+  min-width: 50%;
+  margin: 0 auto;
+  min-height: 250px;
+  overflow: auto;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+
+.list {
+  background-color: white;
+  list-style-type: none;
+}
+
+.task {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 1.2px;
+  border-color: #E8ECEE;
+}
+
+input {
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  border: none;
+  color: #212631;
+  font-size: 14px;
+  width: 85%;
+}
+
+input::placeholder {
+  color: #9CA6AF;
+}
+
+input:focus{
+  outline: 0;
+}
+
+.completed {
+  color: #D4E2EE;
+  text-decoration: line-through;
+}
+
+.fa-check {
+  color: #9CA6AF;
+  cursor: pointer;
+}
+
+.checked {
+  color: #D4E2EE;
+}
+
+.readyToCheck {
+  color: #212631
+}
